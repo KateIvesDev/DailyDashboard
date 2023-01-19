@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.background-wrapper{
+  position: relative;
+}
+.background{
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.content-wrapper{
+  position: absolute;
+  background-color: rgba(0,0,0,0.1);
+  top: 0;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.top-wrapper{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  height: 25vh;
+}
+.center-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.bottom-wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  border: 1px solid red;
+  justify-content: space-between;
+  height: 25vh;
+  align-items: center;
+}
+
+.time{
+  font-size: 9em;
+}
+.greeting-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name-input {
+  line-height: 1.5em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border: none;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+.name-input::placeholder{
+  color: white;
+  text-align: center;
+}
+
+.greeting-line {
+  text-align: center;
+  font-size: 3em;
+}
